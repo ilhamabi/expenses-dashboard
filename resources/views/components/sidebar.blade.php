@@ -1,7 +1,7 @@
 <div class="sidebar d-flex flex-column ps-5">
     <div class="profile-section mb-5 position-relative d-inline-block">
         <div class="position-relative d-inline-block">
-            <img src="/images/profile.png" class="mb-3" width="80" height="80" alt="Profile"/>
+            <img src="/images/profile.png" class="mb-3" alt="Profile"/>
             <div class="notification-badge">4</div>
         </div>
         <h4 class="fw-bold mb-0">Samantha</h4>

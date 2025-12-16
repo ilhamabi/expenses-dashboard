@@ -3,9 +3,9 @@
 @section('content')
 <div class="container-fluid p-0">
     <div class="main-card shadow-lg">
-        <div class="row h-100">
+        <div class="row h-100 m-0">
             <!-- Middle Content -->
-            <div class="col-lg-8 pe-lg-5">
+            <div class="col-lg-9 p-5">
                 <div class="d-flex justify-content-between align-items-start mb-5">
                     <div>
                         <h1 class="fw-bold mb-1">Expenses</h1>
@@ -30,13 +30,13 @@
 
                 <!-- Expense List -->
                 <div class="expense-list">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="d-flex justify-content-between align-items-center mb-3 border-bottom pb-3">
                         <h5 class="fw-bold mb-0">Today</h5>
                         <i class="bi bi-three-dots text-muted"></i>
                     </div>
 
                     <!-- Item 1 -->
-                    <div class="d-flex justify-content-between align-items-center expense-item border-bottom">
+                    <div class="d-flex justify-content-between align-items-center expense-item">
                         <div class="d-flex align-items-center">
                             <div class="icon-circle icon-grocery me-3">
                                 <i class="bi bi-cart"></i>
@@ -50,7 +50,7 @@
                     </div>
 
                     <!-- Item 2 -->
-                    <div class="d-flex justify-content-between align-items-center expense-item border-bottom">
+                    <div class="d-flex justify-content-between align-items-center expense-item">
                         <div class="d-flex align-items-center">
                             <div class="icon-circle icon-transport me-3">
                                 <i class="bi bi-bus-front"></i>
@@ -77,13 +77,13 @@
                         <div class="fw-bold fs-5">-185.750</div>
                     </div>
 
-                    <div class="d-flex justify-content-between align-items-center mb-3 mt-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3 mt-4 border-bottom pb-3">
                         <h5 class="fw-bold mb-0">Monday, 23 March 2020</h5>
                         <i class="bi bi-three-dots text-muted"></i>
                     </div>
 
                     <!-- Item 4 -->
-                    <div class="d-flex justify-content-between align-items-center expense-item border-bottom">
+                    <div class="d-flex justify-content-between align-items-center expense-item">
                         <div class="d-flex align-items-center">
                             <div class="icon-circle icon-food me-3">
                                 <i class="bi bi-cup-hot"></i>
@@ -113,10 +113,10 @@
             </div>
 
             <!-- Right Summary Panel -->
-            <div class="col-lg-4 ps-lg-5 border-start">
+            <div class="col-lg-3 p-5" style="background-color: #F9FAFC;">
                 <h5 class="fw-bold mb-4">Where your money go?</h5>
 
-                <div class="mb-4">
+                <div class="mt-4 mb-4">
                     <div class="d-flex justify-content-between progress-label">
                         <span>Food and Drinks</span>
                         <span>872.400</span>
@@ -168,8 +168,8 @@
 
                 <div class="save-money-card mt-auto position-relative">
                     <div class="d-flex justify-content-between align-items-end mb-2">
-                        <img src="{{ asset('images/icon_boxes_vector.png') }}" width="60" alt="Boxes">
-                        <img src="{{ asset('images/icon_plant_vector.png') }}" width="50" alt="Plant">
+                        <img src="{{ asset('images/box-ilustration.png') }}" width="60" alt="Boxes">
+                        <img src="{{ asset('images/plant-ilustration.png') }}" width="50" alt="Plant">
                     </div>
                     <div>
                         <h5 class="fw-bold mb-2">Save more money</h5>

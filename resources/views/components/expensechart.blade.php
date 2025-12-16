@@ -19,8 +19,8 @@ new Chart(ctx, {
             },
             borderRadius: 4,
             borderSkipped: false,
-            barPercentage: 0.6,
-            categoryPercentage: 0.8
+            barPercentage: 0.7,
+            categoryPercentage: 0.9
         }]
     },
     options: {
