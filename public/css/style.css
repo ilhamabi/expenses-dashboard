@@ -1,0 +1,259 @@
+:root {
+    --bg-dark: #101010;
+    --sidebar-width: 250px;
+    --primary-color: #101010;
+    --accent-blue: #0d6efd;
+}
+
+body {
+    background-color: var(--bg-dark) !important;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+/* Sidebar */
+.sidebar {
+    width: var(--sidebar-width);
+    background-color: var(--bg-dark);
+    padding-top: 2rem;
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #7d7d7d;
+    font-size: 1.1rem;
+    padding: 0.8rem 0;
+    transition: color 0.2s;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.profile-section img {
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff4b4b;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--bg-dark);
+}
+
+/* Main Content Card */
+.main-card {
+    background-color: #ffffff;
+    border-radius: 40px;
+    min-height: calc(100vh - 2rem);
+    margin: 1rem;
+    padding: 3rem;
+    color: #101010;
+}
+
+/* Chart */
+.chart-container {
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
+
+/* Expense List */
+.icon-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.icon-grocery {
+    background-color: #32a7e2;
+}
+
+.icon-transport {
+    background-color: #b548c6;
+}
+
+.icon-housing {
+    background-color: #ff8700;
+}
+
+.icon-food {
+    background-color: #dc3434;
+}
+
+.icon-entertainment {
+    background-color: #4ba83d;
+}
+
+.expense-item {
+    padding: 1rem 0;
+}
+
+.expense-item:last-child {
+    border-bottom: none !important;
+}
+
+/* Right Panel */
+.progress-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.custom-progress {
+    height: 6px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.custom-progress .bar {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.save-money-card {
+    background-color: #edf0f6;
+    border-radius: 24px;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.btn-dark-custom {
+    background-color: #101010;
+    color: white;
+    border-radius: 8px;
+    padding: 0.8rem 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
